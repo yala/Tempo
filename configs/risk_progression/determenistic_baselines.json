@@ -1,0 +1,16 @@
+{
+     "search_space": {
+          "cuda": [false],
+          "dataset": ["risk_progression"],
+          "task": ["progression"],
+          "metadata_pickle_path": ["raw_data/ki_trajectories/mirai_trajectories.p", "raw_data/mgh_trajectories/mirai_trajectories.p.anon"],
+          "progression_model_name": ["last_observed_risk", "static_risk", "random"],
+          "use_callibrator": [true],
+          "num_workers": [12],
+          "optimizer": ["adam"],
+          "train": [false],
+          "dev":[false],
+          "test": [true]
+     },
+     "available_gpus":[0,1,2,3,0,1,2,3]
+}

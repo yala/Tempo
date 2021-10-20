@@ -1,0 +1,10 @@
+torch
+ipython
+ipdb
+p_tqdm
+sklearn
+scipy
+numpy
+tqdm
+mock
+gitpython

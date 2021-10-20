@@ -1,0 +1,19 @@
+{
+     "search_space": {
+          "cuda": [true],
+          "dataset": ["personalized_screening"],
+          "task": ["screening"],
+          "metadata_pickle_path":["raw_data/emory_trajectories/mirai_trajectories.p"],
+          "progression_model_name": ["last_observed_risk"],
+          "screening_model_name":["annual_guideline", "biannual_guideline", "age_based_guideline"],
+          "max_early_detection_benefit": [ 6, 12, 18, 24, 30],
+          "num_workers": [12],
+          "optimizer": ["adam"],
+          "use_all_trajec_for_eval":[true],
+          "sample_random_preferences": [false],
+          "train": [false],
+          "dev":[false],
+          "test": [true]
+     },
+     "available_gpus":[0, 1,2,3, 0,1,2,3,0,1,2,3,0,1,2,3,0,1,2,3,0,1,2,3,0,1,2,3]
+}

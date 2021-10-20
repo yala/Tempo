@@ -1,0 +1,24 @@
+{
+     "search_space": {
+          "cuda": [true],
+          "dataset": ["risk_progression"],
+          "task": ["progression"],
+          "metadata_pickle_path": ["raw_data/mgh_trajectories/mirai_trajectories.p.anon"],
+          "progression_model_name": ["gru_w_cum_hazard"],
+          "num_workers": [1],
+          "hidden_dim":[50,100],
+          "num_layers":[1,2,3],
+          "optimizer": ["adam"],
+          "init_lr": [1e-04, 1e-03, 1e-02],
+          "epochs": [30],
+          "batch_size": [16,32],
+          "class_bal":[false],
+          "use_callibrator": [true],
+          "tuning_metric":["main_loss"],
+          "teacher_forcing_for_progression":[true],
+          "train": [true],
+          "dev":[true],
+          "test": [true]
+     },
+     "available_gpus":[0,1,2,3]
+}

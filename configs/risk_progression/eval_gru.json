@@ -1,0 +1,20 @@
+{
+     "search_space": {
+          "cuda": [false],
+          "batch_size":[1],
+          "dataset": ["risk_progression"],
+          "task": ["progression"],
+          "metadata_pickle_path": ["raw_data/emory_trajectories/mirai_trajectories.p"],
+          "progression_snapshot": ["raw_data/models/risk_progression_gru_mirai_aug15_2020.pt"],
+          "num_workers": [12],
+          "optimizer": ["adam"],
+          "epochs": [30],
+          "class_bal":[false],
+          "train": [false],
+          "dev":[false],
+          "use_callibrator": [true],
+          "get_conf_intervals": [true],
+          "test": [true]
+     },
+     "available_gpus":[0,1,2]
+}
