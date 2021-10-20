@@ -1,4 +1,4 @@
-# Tempo: Optimizing risk-based breast cancer screening policies with reinforcement learning
+# Tempo: Optimizing risk-based breast cancer screening policies with reinforcement learning  [![DOI](https://zenodo.org/badge/419388269.svg)](https://zenodo.org/badge/latestdoi/419388269)
 
 # Introduction
 This repository was used to develop Tempo, as described in: [Optimizing risk-based breast cancer screening policies with reinforcement learning](https://www.researchsquare.com/article/rs-104592/v1).
